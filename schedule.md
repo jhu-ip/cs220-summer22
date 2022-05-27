@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Schedule"
+category: schedule
 ---
 
 This page lists important dates for the course. Note that it is possible that some
