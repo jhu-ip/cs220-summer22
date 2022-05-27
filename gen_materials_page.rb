@@ -13,6 +13,9 @@
 require 'csv'
 require 'date'
 
+# This should be set to the calendar year when the course is being offered
+CURRENT_YEAR = '2022'
+
 # If any days should not be numbered, specify them here.
 # This is a useful hack if an "extra" work/non-course-content day
 # gets inserted into the schedule, and you don't feel like
@@ -128,11 +131,16 @@ class Week
     return date_of(0)
   end
 
+  def first_date_as_date
+    # Convert, e.g., "6-Jun" to "6-Jun-2022"
+    return Date.parse(self.first_date + '-' + CURRENT_YEAR.to_s)
+  end
+
   def last_date
     return date_of(-1)
   end
 
-  def self._to_sunday(d)
+  def _to_sunday(d)
     d = Date.new(d.year, d.month, d.day)
     if d.cwday != 7
       d = d - d.cwday
@@ -143,7 +151,7 @@ class Week
   # return true if this week is not in the future compared to the week number
   # of the specified current date
   def not_in_future?(current_date)
-    return _to_sunday(self.first_date) <= _to_sunday(current_date)
+    return _to_sunday(self.first_date_as_date) <= _to_sunday(current_date)
   end
 
   # Assign global day numbers to each DayInfo, starting from the given one.
