@@ -80,3 +80,30 @@ Week,Day,Date,Type,Link text,URL
 2,3,17-Jun,Slides,"Dynamic 2-D Arrays, Pointers and Const",slides/day12_more_pointers_dynamic_2d_arrays.pdf
 2,3,17-Jun,Recap,Day 12,questions/day12.html
 2,3,17-Jun,Exercise,Exercise 12,exercise/ex12.html
+3,1,20-Jun,Video,Lifetime/Scope,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6fa78f1f-431c-40ea-95e2-ae230027a663
+3,1,20-Jun,Video,Structs,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=81f128ab-96f2-433e-b770-ae230027a5f4
+3,1,20-Jun,Video,Random number generation,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e02cd998-bfde-4c4a-977a-ae23002791e7
+3,1,20-Jun,Slides,Lifetime/Scope,slides/day13_lifetime_scope.pdf
+3,1,20-Jun,Slides,Structs,slides/day13_struct_type.pdf
+3,1,20-Jun,Slides,Random number generation,slides/day13_random_numbers.pdf
+3,1,20-Jun,Recap,Day 13,questions/day13.html
+3,1,20-Jun,Exercise,Exercise 13,exercise/ex13.html
+3,1,20-Jun,Video,Binary file I/O,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9a428f88-2a13-420b-b008-ae230027a35f
+3,1,20-Jun,Video,Bitwise operations,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=373770ad-6472-4b72-b789-ae230027a246
+3,1,20-Jun,Slides,Binary file I/O,slides/day14_binary_file_io.pdf
+3,1,20-Jun,Slides,Bitwise operations,slides/day14_bitwise_operations.pdf
+3,1,20-Jun,Recap,Day 14,questions/day14.html
+3,1,20-Jun,Exercise,Exercise 14,exercise/ex14.html
+3,2,22-Jun,Video,"Number representation, type conversion/casting",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9ce56b92-a382-468f-8c9e-ae230027a1af
+3,2,22-Jun,Slides,"Number representation, type conversion/casting",slides/day15_number_rep_type_conversions.pdf
+3,2,22-Jun,Recap,Day 15,questions/day15.html
+3,2,22-Jun,Exercise,Exercise 15,exercise/ex15.html
+3,2,22-Jun,Slides,Midterm project,#
+3,3,24-Jun,Video,Linked lists,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=254ea75c-12a1-456c-b91d-ae230027a0c6
+3,3,24-Jun,Slides,Linked lists,slides/day17_linked_lists.pdf
+3,3,24-Jun,Recap,Day 17,questions/day17.html
+3,3,24-Jun,Exercise,Exercise 17,exercise/ex17.html
+3,3,24-Jun,Video,More Linked lists,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=06994aeb-6743-4fcd-b69f-ae2300279d42
+3,3,24-Jun,Slides,More Linked lists,slides/day18_more_linked_lists.pdf
+3,3,24-Jun,Recap,Day 18,questions/day18.html
+3,3,24-Jun,Exercise,Exercise 18,exercise/ex18.html
