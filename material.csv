@@ -42,3 +42,41 @@ Week,Day,Date,Type,Link text,URL
 1,3,10-Jun,Slides,"Writing functions, command line arguments",slides/day06_functions_command_line_arguments.pdf
 1,3,10-Jun,Recap,Day 6,questions/day06.html
 1,3,10-Jun,Exercise,Exercise 6,exercise/ex06.html
+2,1,13-Jun,Slides,Function declarations,slides/day07_function_declaration.pdf
+2,1,13-Jun,Slides,Passing arrays to functions,slides/day07_passing_arrays_to_functions.pdf
+2,1,13-Jun,Slides,Recursion,slides/day07_recursion.pdf
+2,1,13-Jun,Video,Function declarations,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=bbef007b-88a8-4e42-bcc4-ae230027a8f4
+2,1,13-Jun,Video,Passing arrays to functions,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c18158bd-cf31-48c4-a2c0-ae230027a87e
+2,1,13-Jun,Video,Recursion,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=12215376-94e9-48dd-8d5a-ae230027937e
+2,1,13-Jun,Recap,Day 7,questions/day07.html
+2,1,13-Jun,Exercise,Exercise 7,exercise/ex07.html
+2,1,13-Jun,Slides,Separate compilation,slides/day08_separate_compilation.pdf
+2,1,13-Jun,Slides,Makefiles,slides/day08_makefiles.pdf
+2,1,13-Jun,Slides,Header guards,slides/day08_header_guards.pdf
+2,1,13-Jun,Video,Separate compilation,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=76660996-f221-4bda-85bf-ae230027aa0b
+2,1,13-Jun,Video,Makefiles,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=956ae811-74a5-48f2-8d73-ae230027a9b0
+2,1,13-Jun,Video,Header guards,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=76a9e1f6-07f3-483c-9341-ae230027a948
+2,1,13-Jun,Recap,Day 8,questions/day08.html
+2,1,13-Jun,Exercise,Exercise 8,exercise/ex08.html
+2,2,15-Jun,Slides,"Multidimensional arrays, gdb",slides/day09_multidimensional_arrays_gdb.pdf
+2,2,15-Jun,Video,"Multidimensional arrays, gdb",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=67aec427-5035-40bb-a34f-ae230027a824
+2,2,15-Jun,Recap,Day 9,questions/day09.html
+2,2,15-Jun,Exercise,Exercise 9,exercise/ex09.html
+2,2,15-Jun,Resource,GDB Cheat Sheet,https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf
+2,2,15-Jun,Video,Pointers,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7dd96f56-4676-4f7c-913d-ae230027a7a3
+2,2,15-Jun,Slides,Pointers,slides/day10_pointers.pdf
+2,2,15-Jun,Recap,Day 10,questions/day10.html
+2,2,15-Jun,Exercise,Exercise 10,exercise/ex10.html
+2,2,15-Jun,Resource,Binky the Pointer (Video),https://www.youtube.com/watch?v=5VnDaHBi8dM
+2,3,17-Jun,Video,Dynamic Memory Allocation,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=88e3945a-f1f2-4442-825e-ae230027a746
+2,3,17-Jun,Video,Valgrind,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f4c78306-67c7-4184-955f-ae230027a6b2
+2,3,14-Feb,Slides,Dynamic Memory Allocation,slides/day11_dynamic_memory_allocation.pdf
+2,3,14-Feb,Slides,Valgrind,slides/day11_valgrind.pdf
+2,3,14-Feb,Recap,Day 11,questions/day11.html
+2,3,17-Jun,Exercise,Exercise 11,exercise/ex11.html
+2,3,17-Jun,Video,Pointer Arithmetic,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d83163b7-7827-4bca-a6ca-ae2300279303
+2,3,17-Jun,Video,"Dynamic 2-D Arrays, Pointers and Const",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5b124364-dcca-4e9b-b276-ae23002792a9
+2,3,17-Jun,Slides,Pointer Arithmetic,slides/day12_pointer_arithmetic.pdf
+2,3,17-Jun,Slides,"Dynamic 2-D Arrays, Pointers and Const",slides/day12_more_pointers_dynamic_2d_arrays.pdf
+2,3,17-Jun,Recap,Day 12,questions/day12.html
+2,3,17-Jun,Exercise,Exercise 12,exercise/ex12.html
