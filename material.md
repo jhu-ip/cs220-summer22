@@ -32,7 +32,7 @@ the materials for that week.
   <tbody>
     <tr>
       <td>Videos</td>
-      <td><a href='#'>Course intro (coming soon)</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1273cccc-b312-47d4-802a-ae2200fefc22'>Linux, ugrad accounts</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1a42038f-6e6e-43cb-958a-ae230027ad23'>Hello world program in C</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c7fc4118-f301-40bb-8693-ae230027ac09'>C basics</a></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2a133efe-8fdb-4256-8e7a-aea2013f41b5'>Course intro</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1273cccc-b312-47d4-802a-ae2200fefc22'>Linux, ugrad accounts</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1a42038f-6e6e-43cb-958a-ae230027ad23'>Hello world program in C</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c7fc4118-f301-40bb-8693-ae230027ac09'>C basics</a></td>
       <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d7af51c6-fffc-4c79-9e8e-ae230027adb4'>Editors (emacs)</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7f332c5e-6ad8-4ff8-a702-ae23002793cf'>Git</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4c4f67dd-677c-40d9-8bbc-ae230027ac60'>Submission workflow</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=45b14d44-3d4e-4fd7-b0c0-ae230027aef2'>Logical operators, control flow</a></td>
       <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=58f4d402-fd0d-4868-b805-ae230027ab93'>Arrays, ASCII</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=06a4f1da-f6a1-4212-b686-ae230027ab33'>C strings</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ae149930-15ce-460c-a2df-ae230027aac0'>File I/O, assert, math functions</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1de2958b-f8b8-4fae-ac47-ae230027aa77'>Writing functions, command line arguments</a></td>
     </tr>
@@ -203,6 +203,63 @@ the materials for that week.
   <tbody>
     <tr>
       <td>Videos</td>
+      <td><a href='#'>N/A</a></td>
+      <td><a href='#'>N/A</a></td>
+      <td><a href='#'>N/A</a></td>
+    </tr>
+    <tr>
+      <td>Slides</td>
+      <td><a href='#'>N/A</a></td>
+      <td><a href='#'>N/A</a></td>
+      <td><a href='#'>N/A</a></td>
+    </tr>
+    <tr>
+      <td>Recap<br>Questions</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Exercise</td>
+      <td><a href='#'>Work on midterm project</a></td>
+      <td><a href='#'>Work on midterm project</a></td>
+      <td><a href='#'>Midterm exam</a></td>
+    </tr>
+    <tr>
+      <td>Additional<br>Resources</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Lecture<br>Slides</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Recorded<br>Sessions</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<button type="button" id="week_5_toggle" class="week_control_button">Week 5 (4-Jul to 8-Jul)</button>
+<div id="week_5" class="collapsible">
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Day 13 (4-Jul)</th>
+      <th>Day 14 (6-Jul)</th>
+      <th>Day 15 (8-Jul)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Videos</td>
       <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2760c264-312d-49f2-9e43-ae2300279acb'>Introduction to C++</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=954ea030-61b3-482d-96e8-ae2300279a4f'>C++ Strings</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=04905da6-f193-4a6e-9f3e-ae2300279736'>Introduction to STL and templates</a></td>
       <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c12342a6-6af3-4859-9da6-ae2300279661'>STL Containers - map, pair, and tuple</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c08d312c-963d-485b-84bf-ae23002796be'>STL Algorithms</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f35cdf8e-80d0-4d88-b9e3-ae2300279562'>C++ I/O stream and stringstream</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=090adf84-0330-4c2f-9c73-ae230027a599'>Intro to Object Oriented Programming</a></td>
       <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4fcd7033-f754-429f-b55b-ae230027a516'>References</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d9978853-6c9b-4cc3-b62d-ae230027a4cc'>Dynamic Memory Allocation</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5a1a7afe-6165-4e33-9567-ae230027a431'>C++ Classes</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0e485b33-028d-45e6-be18-ae230027a3d3'>Default Constructors</a></td>
@@ -246,15 +303,15 @@ the materials for that week.
   </tbody>
 </table>
 </div>
-<button type="button" id="week_5_toggle" class="week_control_button">Week 5 (4-Jul to 8-Jul)</button>
-<div id="week_5" class="collapsible">
+<button type="button" id="week_6_toggle" class="week_control_button">Week 6 (11-Jul to 15-Jul)</button>
+<div id="week_6" class="collapsible">
 <table>
   <thead>
     <tr>
       <th></th>
-      <th>Day 13 (4-Jul)</th>
-      <th>Day 14 (6-Jul)</th>
-      <th>Day 15 (8-Jul)</th>
+      <th>Day 16 (11-Jul)</th>
+      <th>Day 17 (13-Jul)</th>
+      <th>Day 18 (15-Jul)</th>
     </tr>
   </thead>
   <tbody>
@@ -281,6 +338,120 @@ the materials for that week.
       <td><a href='exercise/ex28.html'>Exercise 28</a><br><a href='exercise/ex29.html'>Exercise 29</a></td>
       <td><a href='exercise/ex30.html'>Exercise 30</a><br><a href='exercise/ex31.html'>Exercise 31</a></td>
       <td><a href='exercise/ex32.html'>Exercise 32</a><br><a href='exercise/ex33.html'>Exercise 33</a></td>
+    </tr>
+    <tr>
+      <td>Additional<br>Resources</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Lecture<br>Slides</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Recorded<br>Sessions</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<button type="button" id="week_7_toggle" class="week_control_button">Week 7 (18-Jul to 22-Jul)</button>
+<div id="week_7" class="collapsible">
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Day 19 (18-Jul)</th>
+      <th>Day 20 (20-Jul)</th>
+      <th>Day 21 (22-Jul)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Videos</td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2edb2b97-e40e-4200-94ce-ae23002790c9'>OO Design & UML Diagrams</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=00c8e477-aa8e-4357-bd0e-ae230027992c'>Enumerated Types</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7e2654d0-197a-49fb-8d90-ae23002798b8'>Exceptions</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=53afa435-461a-4814-bfc2-ae2300279850'>Customized Exceptions</a></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=737a8372-4317-47c5-8492-ae23002795c1&query=iterator'>Iterators</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5eb3773f-b093-4630-8e18-ae810038ea47'>Lambdas</a></td>
+      <td><a href='#'>N/A</a></td>
+    </tr>
+    <tr>
+      <td>Slides</td>
+      <td><a href='slides/day34_oo_design_uml.pdf'>OO Design & UML Diagrams</a><br><a href='slides/day35_enum.pdf'>Enumerated Types</a><br><a href='slides/day35_exceptions.pdf'>Exceptions</a><br><a href='slides/day35_customized_exceptions.pdf'>Customized Exceptions</a></td>
+      <td><a href='slides/day36_iterators.pdf'>Iterators</a><br><a href='slides/day37_lambdas.pdf'>Lambdas</a></td>
+      <td><a href='#'>N/A</a></td>
+    </tr>
+    <tr>
+      <td>Recap<br>Questions</td>
+      <td><a href='questions/day34.html'>Day 34</a><br><a href='questions/day35.html'>Day 35</a></td>
+      <td><a href='questions/day36.html'>Day 36</a><br><a href='questions/day37.html'>Day 37</a></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Exercise</td>
+      <td><a href='#'>Work on final project</a><br><a href='exercise/ex35.html'>Exercise 35</a></td>
+      <td><a href='exercise/ex36.html'>Exercise 36</a><br><a href='#'>Work on final project</a></td>
+      <td><a href='#'>Work on final project</a></td>
+    </tr>
+    <tr>
+      <td>Additional<br>Resources</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Lecture<br>Slides</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Recorded<br>Sessions</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<button type="button" id="week_8_toggle" class="week_control_button">Week 8 (25-Jul to 29-Jul)</button>
+<div id="week_8" class="collapsible">
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Day 22 (25-Jul)</th>
+      <th>Day 23 (27-Jul)</th>
+      <th>Day 24 (29-Jul)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Videos</td>
+      <td><a href='#'>N/A</a></td>
+      <td><a href='#'>N/A</a></td>
+      <td><a href='#'>N/A</a></td>
+    </tr>
+    <tr>
+      <td>Slides</td>
+      <td><a href='#'>N/A</a></td>
+      <td><a href='#'>N/A</a></td>
+      <td><a href='#'>N/A</a></td>
+    </tr>
+    <tr>
+      <td>Recap<br>Questions</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Exercise</td>
+      <td><a href='#'>Work on final project</a></td>
+      <td><a href='#'>Work on final project</a></td>
+      <td><a href='#'>Final exam</a></td>
     </tr>
     <tr>
       <td>Additional<br>Resources</td>

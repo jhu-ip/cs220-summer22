@@ -18,7 +18,7 @@ Wed, June 15th | HW1 due
 Wed, June 22nd | HW3 due
 Wed, June 29th | Midterm project due
 Fri, Jul 1st | Midterm exam
-Wed, July 6th | HW5 due
-Wed, July 13th | HW7 due
+Mon, July 11th | HW5 due
+Mon, July 18th | HW7 due
 Wed, July 27th | Final project due
 Fri, July 29th | Final exam
