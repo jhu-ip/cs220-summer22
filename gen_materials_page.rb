@@ -11,6 +11,7 @@
 # as a collapsible section.
 
 require 'csv'
+require 'date'
 
 # If any days should not be numbered, specify them here.
 # This is a useful hack if an "extra" work/non-course-content day
@@ -19,7 +20,7 @@ require 'csv'
 # recap questions, etc.) Keys should be a pair [week_number, day_number],
 # the mapped value should just be something that evaluates as true.
 NON_NUMBERED_DAYS = {
-  [12, 3] => true,
+  #[12, 3] => true,
 }
 
 FRONT_STUFF = <<'EOF1'
@@ -131,36 +132,18 @@ class Week
     return date_of(-1)
   end
 
-  # Note that we don't actually use this.
-  # Also, this code should be rewritten to use Ruby DateTime objects.
+  def self._to_sunday(d)
+    d = Date.new(d.year, d.month, d.day)
+    if d.cwday != 7
+      d = d - d.cwday
+    end
+   return d
+  end
+
+  # return true if this week is not in the future compared to the week number
+  # of the specified current date
   def not_in_future?(current_date)
-    # The idea here is that current_date is the current date,
-    # and this method returns true if this week is not "in the future"
-    # compared to the current date. That is implemented in terms of
-    # the week number (starting Sunday.) Meaning, if the current date
-    # is Sunday of the week this Week object represents, that's not
-    # considered to be in the future.
-
-    # This is complicated by the fact that the %V format to print the
-    # week number considers weeks as starting on Monday, not Sunday.
-
-    # Use the Unix date command to find the week number for this week's
-    # first day and the current date pass as a parameter.
-    year = `date '+%Y'`
-
-    # Week number of this object's week
-    my_week = `date -d '#{year}-#{self.first_date.gsub('/', '-')}' '+%V'`
-
-    # Week number of current time (considering the week to start on Sunday,
-    # not Monday)
-    cur_epoch_time = `date -d '#{year}-#{current_date.gsub('/', '-')}' '+%s'`.to_i
-    tomorrow_epoch_time = cur_epoch_time + 86400
-    cur_week = `date -d '@'#{tomorrow_epoch_time} '+%V'`
-
-    #puts "my_week=#{my_week}"
-    #puts "cur_week=#{cur_week}"
-
-    return my_week.to_i <= cur_week.to_i
+    return _to_sunday(self.first_date) <= _to_sunday(current_date)
   end
 
   # Assign global day numbers to each DayInfo, starting from the given one.
@@ -218,24 +201,19 @@ CSV.foreach('material.csv') do |row|
   end
 end
 
-## Based on current day, figure out what the active week should be.
-## The rule is that the active week is the latest one that's not in the future.
-## (We may want to revisit this policy as we update the course content.)
-## As a special case, if no weeks are not in the future (i.e., the current
-## date is before the first week of classes), then the first week is active.
-#current_date = `date +'%m/%d'`
-#active_week = nil
-#weeks.keys.sort.each do |week_num|
-#  week = weeks[week_num]
-#  if active_week.nil? || week.not_in_future?(current_date)
-#    active_week = week
-#  end
-#end
-
-# Just use the last week as the active week
-week_numbers = weeks.keys.sort
-last_week = weeks[week_numbers[-1]]
-active_week = last_week
+# Based on current day, figure out what the active week should be.
+# The rule is that the active week is the latest one that's not in the future.
+# (We may want to revisit this policy as we update the course content.)
+# As a special case, if no weeks are not in the future (i.e., the current
+# date is before the first week of classes), then the first week is active.
+current_date = DateTime.now
+active_week = nil
+weeks.keys.sort.each do |week_num|
+  week = weeks[week_num]
+  if active_week.nil? || week.not_in_future?(current_date)
+    active_week = week
+  end
+end
 
 # Go through all of the Weeks and assign a global day number
 # to each DayInfo
