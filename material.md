@@ -246,6 +246,63 @@ the materials for that week.
   </tbody>
 </table>
 </div>
+<button type="button" id="week_5_toggle" class="week_control_button">Week 5 (4-Jul to 8-Jul)</button>
+<div id="week_5" class="collapsible">
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Day 13 (4-Jul)</th>
+      <th>Day 14 (6-Jul)</th>
+      <th>Day 15 (8-Jul)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Videos</td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=62080530-d06e-4a0e-be06-ae230027a050'>Constructors and default arguments</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2ea9792a-afab-4319-85f1-ae2300279fe3'>Destructors</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2c8031d1-8509-4b22-881b-ae2300279f65'>Function overloading</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ee4c0ea7-24f8-426a-9291-ae2300279f0e'>Operator overloading</a></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f9091b95-ab29-46fe-82b8-ae2300279e93'>Initialization and assignment</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=181313b7-6b07-400c-addf-ae2300279df3'>Rule of 3</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fed0c83c-bcd8-4341-8b0e-ae2300279cf6'>Template functions</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=06bf6f38-8f76-4b19-80f4-ae2300279c79'>Template classes</a></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7cdea279-e109-4ba8-b99d-ae2300279bea'>Inheritance</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=873d6ec0-a562-47f2-b098-ae2300279b28'>Polymorphism</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=162dba01-3c6a-4358-8179-ae23002799fe'>Dynamic dispatch</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0e849f80-9dec-47c1-aaac-ae2300279986'>Function hiding and abstract classes</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5d6fdb70-910c-4823-b4a0-ae23002797a1'>Virtual destructors</a></td>
+    </tr>
+    <tr>
+      <td>Slides</td>
+      <td><a href='slides/day28_constructors.pdf'>Constructors and default arguments</a><br><a href='slides/day28_destructors.pdf'>Destructors</a><br><a href='slides/day29_function_overloading.pdf'>Function overloading</a><br><a href='slides/day29_operator_overloading.pdf'>Operator overloading</a></td>
+      <td><a href='slides/day30_initialization_assignments.pdf'>Initialization and assignment</a><br><a href='slides/day30_rule_of_3.pdf'>Rule of 3</a><br><a href='slides/day31_template_functions.pdf'>Template functions</a><br><a href='slides/day31_template_classes.pdf'>Template classes</a></td>
+      <td><a href='slides/day32_inheritance.pdf'>Inheritance</a><br><a href='slides/day32_polymorphism.pdf'>Polymorphism</a><br><a href='slides/day33_dynamic_dispatch.pdf'>Dynamic dispatch</a><br><a href='slides/day33_function_hiding_abstract_classes.pdf'>Function hiding and abstract classes</a><br><a href='slides/day33_virtual_destructors.pdf'>Virtual destructors</a></td>
+    </tr>
+    <tr>
+      <td>Recap<br>Questions</td>
+      <td><a href='questions/day28.html'>Day 28</a><br><a href='questions/day29.html'>Day 29</a></td>
+      <td><a href='questions/day30.html'>Day 30</a><br><a href='questions/day31.html'>Day 31</a></td>
+      <td><a href='questions/day32.html'>Day 32</a><br><a href='questions/day33.html'>Day 33</a></td>
+    </tr>
+    <tr>
+      <td>Exercise</td>
+      <td><a href='exercise/ex28.html'>Exercise 28</a><br><a href='exercise/ex29.html'>Exercise 29</a></td>
+      <td><a href='exercise/ex30.html'>Exercise 30</a><br><a href='exercise/ex31.html'>Exercise 31</a></td>
+      <td><a href='exercise/ex32.html'>Exercise 32</a><br><a href='exercise/ex33.html'>Exercise 33</a></td>
+    </tr>
+    <tr>
+      <td>Additional<br>Resources</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Lecture<br>Slides</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Recorded<br>Sessions</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+</div>
 <script type="text/javascript">
   // Create and register a click handler for button clicks to expand/contract
   // specified content div
