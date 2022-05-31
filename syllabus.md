@@ -49,7 +49,7 @@ Office hours: TBD (see <a class="external" href="https://piazza.com/jhu/summer20
 
 **Meetings**
 
-Online via Zoom
+Online via Zoom (see [Piazza](https://piazza.com/jhu/summer2022/en601220/home) post number 7 for the meeting URL)
 
 Monday, Wednesday, Friday, 10:00am--12:15pm
 
