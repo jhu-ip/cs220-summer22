@@ -6,7 +6,7 @@ category: "staff"
 
 # Course Staff
 
-## Instructors
+## Instructor
 
 <div class="card_container">
 
@@ -26,21 +26,17 @@ category: "staff"
 
 ## Head Course Assistant
 
-<p><i>Coming soon!</i></p>
-
-<!--
 <div class="card_container">
 
 <div class="card">
-  <img alt="X photo" src="{{site.baseurl}}/img/staffpix/X.jpg">
+  <img alt="Anika photo" src="{{site.baseurl}}/img/staffpix/anika.jpg">
   <div class="details">
-   <span class="name_and_role">X Xspan><br>
-   Email: <a href="mailto:bcillie1@jhu.edu">X@jhu.edu</a><br>
+   <span class="name_and_role">Anika Misra</span><br>
+   Email: <a href="mailto:amisra7@jhu.edu">amisra7@jhu.edu</a><br>
   </div>
 </div>
 
 </div>
--->
 
 ## Course Assistants
 
