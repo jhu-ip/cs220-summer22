@@ -47,4 +47,5 @@ to the course Gradescope in the first week.
 
 ## News
 
-* **June 6th** — Welcome!
+* **June 6th** — Welcome! [HW0](assign/hw0.html) is due by 11pm on **Thurs, Jun 9th** and
+  [HW1](assign/hw1.html) is due by 11pm on **Wed, Jun 15th**.
