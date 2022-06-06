@@ -45,7 +45,7 @@ syllabus as deemed necessary with notice.)*
 David Hovemeyer, Associate Teaching Professor\
 <mailto:daveho@cs.jhu.edu>,\
 <a class="external" target="_blank" href="https://www.cs.jhu.edu/~daveho">https://www.cs.jhu.edu/~daveho</a>,\
-Office hours: TBD (see <a class="external" href="https://piazza.com/jhu/summer2022/en601220/staff">Piazza→Resources→Staff</a> for link)
+Office hours: M/W 12:15–1:15 pm (see <a class="external" href="https://piazza.com/jhu/summer2022/en601220/staff">Piazza→Resources→Staff</a> for link)
 
 **Meetings**
 

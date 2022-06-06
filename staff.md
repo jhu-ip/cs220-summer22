@@ -17,7 +17,7 @@ category: "staff"
    Department of Computer Science<br>
    Email: <a href="mailto:daveho@cs.jhu.edu">daveho@cs.jhu.edu</a><br>
    Web: <a class="external" target="_blank" href="https://www.cs.jhu.edu/~daveho/">https://www.cs.jhu.edu/~daveho/</a><br>
-   Office hours: TBD<br>
+   Office hours: M/W 12:15–1:15 pm<br>
    Check <a class="external" target="_blank" href="https://piazza.com/jhu/summer2022/en601220/staff">Piazza→Resources→Staff</a><br>&nbsp;&nbsp;for Zoom link!
   </div>
 </div>
