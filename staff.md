@@ -57,7 +57,7 @@ See the [CA office hours](officehours.html) page for the CA office hours schedul
 <div class="card_container">
 
 <div class="card">
-  <img alt="Alex D photo" src="{{site.baseurl}}/img/staffpix/placeholder.jpg">
+  <img alt="Alex D photo" src="{{site.baseurl}}/img/staffpix/alex_d.jpg">
   <div class="details">
    <span class="name_and_role">Alex DiNovi</span><br>
    Email: <a href="mailto:adinovi1@jhu.edu">adinovi1@jhu.edu</a><br>
