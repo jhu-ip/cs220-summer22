@@ -42,7 +42,53 @@ category: "staff"
 
 See the [CA office hours](officehours.html) page for the CA office hours schedule.
 
-<p><i>CA information coming soon!</i></p>
+<div class="card_container">
+
+<div class="card">
+  <img alt="Rena photo" src="{{site.baseurl}}/img/staffpix/rena.jpg">
+  <div class="details">
+   <span class="name_and_role">Rena Bi</span><br>
+   Email: <a href="mailto:rbi4@jhu.edu">rbi4@jhu.edu</a><br>
+  </div>
+</div>
+
+</div>
+
+<div class="card_container">
+
+<div class="card">
+  <img alt="Alex D photo" src="{{site.baseurl}}/img/staffpix/placeholder.jpg">
+  <div class="details">
+   <span class="name_and_role">Alex DiNovi</span><br>
+   Email: <a href="mailto:adinovi1@jhu.edu">adinovi1@jhu.edu</a><br>
+  </div>
+</div>
+
+</div>
+
+<div class="card_container">
+
+<div class="card">
+  <img alt="Chloe photo" src="{{site.baseurl}}/img/staffpix/placeholder.jpg">
+  <div class="details">
+   <span class="name_and_role">Chloe Donelan</span><br>
+   Email: <a href="mailto:cdonela1@jhu.edu">cdonela1@jhu.edu</a><br>
+  </div>
+</div>
+
+</div>
+
+<div class="card_container">
+
+<div class="card">
+  <img alt="Alex M photo" src="{{site.baseurl}}/img/staffpix/placeholder.jpg">
+  <div class="details">
+   <span class="name_and_role">Alex Mo</span><br>
+   Email: <a href="mailto:ymo6@jhu.edu">ymo6@jhu.edu</a><br>
+  </div>
+</div>
+
+</div>
 
 <!--
 <div class="card_container">
