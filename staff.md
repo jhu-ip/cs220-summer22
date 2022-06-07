@@ -69,7 +69,7 @@ See the [CA office hours](officehours.html) page for the CA office hours schedul
 <div class="card_container">
 
 <div class="card">
-  <img alt="Chloe photo" src="{{site.baseurl}}/img/staffpix/placeholder.jpg">
+  <img alt="Chloe photo" src="{{site.baseurl}}/img/staffpix/chloe.jpg">
   <div class="details">
    <span class="name_and_role">Chloe Donelan</span><br>
    Email: <a href="mailto:cdonela1@jhu.edu">cdonela1@jhu.edu</a><br>
