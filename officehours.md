@@ -4,8 +4,4 @@ title: "CA Office Hours"
 category: "officehours"
 ---
 
-<p><i>Office hours information coming soon!</i></p>
-
-<!--
-<iframe id="officehours_spreadsheet" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQtl9Kp2m8soKPorhM2zeBrTCEGmOh43VPVkMt6sl3-9MDl6lV-1DupB1Z3sKPL61rVhN5x6QySJDGm/pubhtml?widget=true&amp;headers=false"></iframe>
--->
+<iframe id="officehours_spreadsheet" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQM1rHlhrLfPBx3pBK5VGOMR9DzU5phgC_sbRQW5hWWxRN_9X8shZnh7kq1ilr3I-HzO6gYTceWgyz2/pubhtml"></iframe>
