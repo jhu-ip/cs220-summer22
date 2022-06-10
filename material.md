@@ -70,7 +70,7 @@ the materials for that week.
       <td>Recorded<br>Sessions</td>
       <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c585ce94-7f8b-4b04-9325-aeac0115bdb3'>Meeting 1</a></td>
       <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8e81eb74-0e0b-444b-a0ee-aeae012661aa'>Meeting 2</a></td>
-      <td></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=52918661-a545-4b19-9785-aeb0011811f3'>Meeting 3 (part 1 re-recording)</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f54e462d-2ae5-4ea2-b167-aeb00118f783'>Meeting 3 (part 2)</a></td>
     </tr>
   </tbody>
 </table>
