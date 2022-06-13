@@ -47,6 +47,7 @@ to the course Gradescope in the first week.
 
 ## News
 
+* **June 13th** — [HW3](assign/hw3.html) is due by 11pm on **Wed, June 22nd**.
 * **June 7th** — The [CA office hours schedule](officehours.html) has been posted.
 * **June 6th** — Welcome! [HW0](assign/hw0.html) is due by 11pm on **Thurs, Jun 9th** and
   [HW1](assign/hw1.html) is due by 11pm on **Wed, Jun 15th**.
