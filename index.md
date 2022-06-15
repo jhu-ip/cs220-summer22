@@ -47,6 +47,9 @@ to the course Gradescope in the first week.
 
 ## News
 
+* **June 15th** — [HW1](assign/hw1.html) has been updated to more precisely
+  describe under what circumstances the "invalid item" and "malformed expression"
+  error messages should be generated.
 * **June 13th** — [HW3](assign/hw3.html) is due by 11pm on **Wed, June 22nd**.
 * **June 7th** — The [CA office hours schedule](officehours.html) has been posted.
 * **June 6th** — Welcome! [HW0](assign/hw0.html) is due by 11pm on **Thurs, Jun 9th** and
