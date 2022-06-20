@@ -23,7 +23,9 @@ CURRENT_YEAR = '2022'
 # recap questions, etc.) Keys should be a pair [week_number, day_number],
 # the mapped value should just be something that evaluates as true.
 NON_NUMBERED_DAYS = {
-  #[12, 3] => true,
+  # Summer 2022: June 20th and July 4th are both holidays with no classes
+  [3, 1] => true,
+  [5, 1] => true,
 }
 
 FRONT_STUFF = <<'EOF1'
@@ -173,7 +175,11 @@ class Week
 end
 
 def format_link(link_text, url)
-  if url.start_with?('http:') || url.start_with?('https:')
+  if url == '#'
+    # If the URL is just '#', then this is not actually a link.
+    # We use this for things like indicating that there is no class.
+    return link_text
+  elsif url.start_with?('http:') || url.start_with?('https:')
     return "<a class='external' target='_blank' href='#{url}'>#{link_text}</a>"
   else
     #return "[#{link_text}](#{url})"

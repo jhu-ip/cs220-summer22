@@ -47,6 +47,9 @@ to the course Gradescope in the first week.
 
 ## News
 
+* **June 20th** — The [Course Material](material.html) and [Schedule](schedule.html)
+  pages have been updated to accommodate the summer holidays on June 20th and
+  July 4th.
 * **June 15th** — [HW1](assign/hw1.html) has been updated to more precisely
   describe under what circumstances the "invalid item" and "malformed expression"
   error messages should be generated.

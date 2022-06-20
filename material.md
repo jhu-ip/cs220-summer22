@@ -138,35 +138,35 @@ the materials for that week.
   <thead>
     <tr>
       <th></th>
-      <th>Day 7 (20-Jun)</th>
-      <th>Day 8 (22-Jun)</th>
-      <th>Day 9 (24-Jun)</th>
+      <th>— (20-Jun)</th>
+      <th>Day 7 (22-Jun)</th>
+      <th>Day 8 (24-Jun)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>Videos</td>
+      <td></td>
       <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6fa78f1f-431c-40ea-95e2-ae230027a663'>Lifetime/Scope</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=81f128ab-96f2-433e-b770-ae230027a5f4'>Structs</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e02cd998-bfde-4c4a-977a-ae23002791e7'>Random number generation</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9a428f88-2a13-420b-b008-ae230027a35f'>Binary file I/O</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=373770ad-6472-4b72-b789-ae230027a246'>Bitwise operations</a></td>
       <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9ce56b92-a382-468f-8c9e-ae230027a1af'>Number representation, type conversion/casting</a></td>
-      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=254ea75c-12a1-456c-b91d-ae230027a0c6'>Linked lists</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=06994aeb-6743-4fcd-b69f-ae2300279d42'>More Linked lists</a></td>
     </tr>
     <tr>
       <td>Slides</td>
+      <td></td>
       <td><a href='slides/day13_lifetime_scope.pdf'>Lifetime/Scope</a><br><a href='slides/day13_struct_type.pdf'>Structs</a><br><a href='slides/day13_random_numbers.pdf'>Random number generation</a><br><a href='slides/day14_binary_file_io.pdf'>Binary file I/O</a><br><a href='slides/day14_bitwise_operations.pdf'>Bitwise operations</a></td>
-      <td><a href='slides/day15_number_rep_type_conversions.pdf'>Number representation, type conversion/casting</a><br><a href='#'>Midterm project</a></td>
-      <td><a href='slides/day17_linked_lists.pdf'>Linked lists</a><br><a href='slides/day18_more_linked_lists.pdf'>More Linked lists</a></td>
+      <td><a href='slides/day15_number_rep_type_conversions.pdf'>Number representation, type conversion/casting</a><br>Midterm project</td>
     </tr>
     <tr>
       <td>Recap<br>Questions</td>
+      <td></td>
       <td><a href='questions/day13.html'>Day 13</a><br><a href='questions/day14.html'>Day 14</a></td>
       <td><a href='questions/day15.html'>Day 15</a></td>
-      <td><a href='questions/day17.html'>Day 17</a><br><a href='questions/day18.html'>Day 18</a></td>
     </tr>
     <tr>
       <td>Exercise</td>
+      <td>No class (Juneteenth)</td>
       <td><a href='exercise/ex13.html'>Exercise 13</a><br><a href='exercise/ex14.html'>Exercise 14</a></td>
       <td><a href='exercise/ex15.html'>Exercise 15</a></td>
-      <td><a href='exercise/ex17.html'>Exercise 17</a><br><a href='exercise/ex18.html'>Exercise 18</a></td>
     </tr>
     <tr>
       <td>Additional<br>Resources</td>
@@ -176,8 +176,8 @@ the materials for that week.
     </tr>
     <tr>
       <td>Lecture<br>Slides</td>
-      <td><a href='slides/class07.pdf'>Meeting 7</a></td>
       <td></td>
+      <td><a href='slides/class07.pdf'>Meeting 7</a></td>
       <td></td>
     </tr>
     <tr>
@@ -195,35 +195,35 @@ the materials for that week.
   <thead>
     <tr>
       <th></th>
-      <th>Day 10 (27-Jun)</th>
-      <th>Day 11 (29-Jun)</th>
-      <th>Day 12 (1-Jul)</th>
+      <th>Day 9 (27-Jun)</th>
+      <th>Day 10 (29-Jun)</th>
+      <th>Day 11 (1-Jul)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>Videos</td>
-      <td><a href='#'>N/A</a></td>
-      <td><a href='#'>N/A</a></td>
-      <td><a href='#'>N/A</a></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=254ea75c-12a1-456c-b91d-ae230027a0c6'>Linked lists</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=06994aeb-6743-4fcd-b69f-ae2300279d42'>More Linked lists</a></td>
+      <td>N/A</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>Slides</td>
-      <td><a href='#'>N/A</a></td>
-      <td><a href='#'>N/A</a></td>
-      <td><a href='#'>N/A</a></td>
+      <td><a href='slides/day17_linked_lists.pdf'>Linked lists</a><br><a href='slides/day18_more_linked_lists.pdf'>More Linked lists</a></td>
+      <td>N/A</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>Recap<br>Questions</td>
-      <td></td>
+      <td><a href='questions/day17.html'>Day 17</a><br><a href='questions/day18.html'>Day 18</a></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>Exercise</td>
-      <td><a href='#'>Work on midterm project</a></td>
-      <td><a href='#'>Work on midterm project</a></td>
-      <td><a href='#'>Midterm exam</a></td>
+      <td><a href='exercise/ex17.html'>Exercise 17</a><br><a href='exercise/ex18.html'>Exercise 18</a></td>
+      <td>Work on midterm project</td>
+      <td>Work on midterm project</td>
     </tr>
     <tr>
       <td>Additional<br>Resources</td>
@@ -252,35 +252,35 @@ the materials for that week.
   <thead>
     <tr>
       <th></th>
-      <th>Day 13 (4-Jul)</th>
-      <th>Day 14 (6-Jul)</th>
-      <th>Day 15 (8-Jul)</th>
+      <th>— (4-Jul)</th>
+      <th>Day 12 (6-Jul)</th>
+      <th>Day 13 (8-Jul)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>Videos</td>
+      <td></td>
+      <td>N/A</td>
       <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2760c264-312d-49f2-9e43-ae2300279acb'>Introduction to C++</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=954ea030-61b3-482d-96e8-ae2300279a4f'>C++ Strings</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=04905da6-f193-4a6e-9f3e-ae2300279736'>Introduction to STL and templates</a></td>
-      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c12342a6-6af3-4859-9da6-ae2300279661'>STL Containers - map, pair, and tuple</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c08d312c-963d-485b-84bf-ae23002796be'>STL Algorithms</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f35cdf8e-80d0-4d88-b9e3-ae2300279562'>C++ I/O stream and stringstream</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=090adf84-0330-4c2f-9c73-ae230027a599'>Intro to Object Oriented Programming</a></td>
-      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4fcd7033-f754-429f-b55b-ae230027a516'>References</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d9978853-6c9b-4cc3-b62d-ae230027a4cc'>Dynamic Memory Allocation</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5a1a7afe-6165-4e33-9567-ae230027a431'>C++ Classes</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0e485b33-028d-45e6-be18-ae230027a3d3'>Default Constructors</a></td>
     </tr>
     <tr>
       <td>Slides</td>
+      <td></td>
+      <td>N/A</td>
       <td><a href='slides/day22_intro_cpp.pdf'>Introduction to C++</a><br><a href='slides/day22_cpp_strings.pdf'>C++ Strings</a><br><a href='slides/day23_stl_templates.pdf'>Introduction to STL and templates</a></td>
-      <td><a href='slides/day24_more_stl_containers.pdf'>STL Containers - map, pair, and tuple</a><br><a href='slides/day24_stl_algorithms.pdf'>STL Algorithms</a><br><a href='slides/day25_cpp_file_io_stringstream.pdf'>C++ I/O stream and stringstream</a><br><a href='slides/day25_intro_to_oo.pdf'>Intro to Object Oriented Programming</a></td>
-      <td><a href='slides/day26_cpp_reference.pdf'>References</a><br><a href='slides/day26_dynamic_memory_allocation.pdf'>Dynamic Memory Allocation</a><br><a href='slides/day27_cpp_classes.pdf'>C++ Classes</a><br><a href='slides/day27_default_constructor.pdf'>Default Constructors</a></td>
     </tr>
     <tr>
       <td>Recap<br>Questions</td>
+      <td></td>
+      <td></td>
       <td><a href='questions/day22.html'>Day 22</a><br><a href='questions/day23.html'>Day 23</a></td>
-      <td><a href='questions/day24.html'>Day 24</a><br><a href='questions/day25.html'>Day 25</a></td>
-      <td><a href='questions/day26.html'>Day 26</a><br><a href='questions/day27.html'>Day 27</a></td>
     </tr>
     <tr>
       <td>Exercise</td>
-      <td><a href='#'>N/A</a><br><a href='exercise/ex23.html'>Exercise 23</a></td>
-      <td><a href='exercise/ex24.html'>Exercise 24</a><br><a href='exercise/ex25.html'>Exercise 25</a></td>
-      <td><a href='exercise/ex26.html'>Exercise 26</a><br><a href='exercise/ex27.html'>Exercise 27</a></td>
+      <td>No class (July 4th)</td>
+      <td>Midterm exam</td>
+      <td>N/A<br><a href='exercise/ex23.html'>Exercise 23</a></td>
     </tr>
     <tr>
       <td>Additional<br>Resources</td>
@@ -309,35 +309,35 @@ the materials for that week.
   <thead>
     <tr>
       <th></th>
-      <th>Day 16 (11-Jul)</th>
-      <th>Day 17 (13-Jul)</th>
-      <th>Day 18 (15-Jul)</th>
+      <th>Day 14 (11-Jul)</th>
+      <th>Day 15 (13-Jul)</th>
+      <th>Day 16 (15-Jul)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>Videos</td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c12342a6-6af3-4859-9da6-ae2300279661'>STL Containers - map, pair, and tuple</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c08d312c-963d-485b-84bf-ae23002796be'>STL Algorithms</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f35cdf8e-80d0-4d88-b9e3-ae2300279562'>C++ I/O stream and stringstream</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=090adf84-0330-4c2f-9c73-ae230027a599'>Intro to Object Oriented Programming</a></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4fcd7033-f754-429f-b55b-ae230027a516'>References</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d9978853-6c9b-4cc3-b62d-ae230027a4cc'>Dynamic Memory Allocation</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5a1a7afe-6165-4e33-9567-ae230027a431'>C++ Classes</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0e485b33-028d-45e6-be18-ae230027a3d3'>Default Constructors</a></td>
       <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=62080530-d06e-4a0e-be06-ae230027a050'>Constructors and default arguments</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2ea9792a-afab-4319-85f1-ae2300279fe3'>Destructors</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2c8031d1-8509-4b22-881b-ae2300279f65'>Function overloading</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ee4c0ea7-24f8-426a-9291-ae2300279f0e'>Operator overloading</a></td>
-      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f9091b95-ab29-46fe-82b8-ae2300279e93'>Initialization and assignment</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=181313b7-6b07-400c-addf-ae2300279df3'>Rule of 3</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fed0c83c-bcd8-4341-8b0e-ae2300279cf6'>Template functions</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=06bf6f38-8f76-4b19-80f4-ae2300279c79'>Template classes</a></td>
-      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7cdea279-e109-4ba8-b99d-ae2300279bea'>Inheritance</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=873d6ec0-a562-47f2-b098-ae2300279b28'>Polymorphism</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=162dba01-3c6a-4358-8179-ae23002799fe'>Dynamic dispatch</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0e849f80-9dec-47c1-aaac-ae2300279986'>Function hiding and abstract classes</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5d6fdb70-910c-4823-b4a0-ae23002797a1'>Virtual destructors</a></td>
     </tr>
     <tr>
       <td>Slides</td>
+      <td><a href='slides/day24_more_stl_containers.pdf'>STL Containers - map, pair, and tuple</a><br><a href='slides/day24_stl_algorithms.pdf'>STL Algorithms</a><br><a href='slides/day25_cpp_file_io_stringstream.pdf'>C++ I/O stream and stringstream</a><br><a href='slides/day25_intro_to_oo.pdf'>Intro to Object Oriented Programming</a></td>
+      <td><a href='slides/day26_cpp_reference.pdf'>References</a><br><a href='slides/day26_dynamic_memory_allocation.pdf'>Dynamic Memory Allocation</a><br><a href='slides/day27_cpp_classes.pdf'>C++ Classes</a><br><a href='slides/day27_default_constructor.pdf'>Default Constructors</a></td>
       <td><a href='slides/day28_constructors.pdf'>Constructors and default arguments</a><br><a href='slides/day28_destructors.pdf'>Destructors</a><br><a href='slides/day29_function_overloading.pdf'>Function overloading</a><br><a href='slides/day29_operator_overloading.pdf'>Operator overloading</a></td>
-      <td><a href='slides/day30_initialization_assignments.pdf'>Initialization and assignment</a><br><a href='slides/day30_rule_of_3.pdf'>Rule of 3</a><br><a href='slides/day31_template_functions.pdf'>Template functions</a><br><a href='slides/day31_template_classes.pdf'>Template classes</a></td>
-      <td><a href='slides/day32_inheritance.pdf'>Inheritance</a><br><a href='slides/day32_polymorphism.pdf'>Polymorphism</a><br><a href='slides/day33_dynamic_dispatch.pdf'>Dynamic dispatch</a><br><a href='slides/day33_function_hiding_abstract_classes.pdf'>Function hiding and abstract classes</a><br><a href='slides/day33_virtual_destructors.pdf'>Virtual destructors</a></td>
     </tr>
     <tr>
       <td>Recap<br>Questions</td>
+      <td><a href='questions/day24.html'>Day 24</a><br><a href='questions/day25.html'>Day 25</a></td>
+      <td><a href='questions/day26.html'>Day 26</a><br><a href='questions/day27.html'>Day 27</a></td>
       <td><a href='questions/day28.html'>Day 28</a><br><a href='questions/day29.html'>Day 29</a></td>
-      <td><a href='questions/day30.html'>Day 30</a><br><a href='questions/day31.html'>Day 31</a></td>
-      <td><a href='questions/day32.html'>Day 32</a><br><a href='questions/day33.html'>Day 33</a></td>
     </tr>
     <tr>
       <td>Exercise</td>
+      <td><a href='exercise/ex24.html'>Exercise 24</a><br><a href='exercise/ex25.html'>Exercise 25</a></td>
+      <td><a href='exercise/ex26.html'>Exercise 26</a><br><a href='exercise/ex27.html'>Exercise 27</a></td>
       <td><a href='exercise/ex28.html'>Exercise 28</a><br><a href='exercise/ex29.html'>Exercise 29</a></td>
-      <td><a href='exercise/ex30.html'>Exercise 30</a><br><a href='exercise/ex31.html'>Exercise 31</a></td>
-      <td><a href='exercise/ex32.html'>Exercise 32</a><br><a href='exercise/ex33.html'>Exercise 33</a></td>
     </tr>
     <tr>
       <td>Additional<br>Resources</td>
@@ -366,35 +366,35 @@ the materials for that week.
   <thead>
     <tr>
       <th></th>
-      <th>Day 19 (18-Jul)</th>
-      <th>Day 20 (20-Jul)</th>
-      <th>Day 21 (22-Jul)</th>
+      <th>Day 17 (18-Jul)</th>
+      <th>Day 18 (20-Jul)</th>
+      <th>Day 19 (22-Jul)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>Videos</td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f9091b95-ab29-46fe-82b8-ae2300279e93'>Initialization and assignment</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=181313b7-6b07-400c-addf-ae2300279df3'>Rule of 3</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fed0c83c-bcd8-4341-8b0e-ae2300279cf6'>Template functions</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=06bf6f38-8f76-4b19-80f4-ae2300279c79'>Template classes</a></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7cdea279-e109-4ba8-b99d-ae2300279bea'>Inheritance</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=873d6ec0-a562-47f2-b098-ae2300279b28'>Polymorphism</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=162dba01-3c6a-4358-8179-ae23002799fe'>Dynamic dispatch</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0e849f80-9dec-47c1-aaac-ae2300279986'>Function hiding and abstract classes</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5d6fdb70-910c-4823-b4a0-ae23002797a1'>Virtual destructors</a></td>
       <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2edb2b97-e40e-4200-94ce-ae23002790c9'>OO Design & UML Diagrams</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=00c8e477-aa8e-4357-bd0e-ae230027992c'>Enumerated Types</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7e2654d0-197a-49fb-8d90-ae23002798b8'>Exceptions</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=53afa435-461a-4814-bfc2-ae2300279850'>Customized Exceptions</a></td>
-      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=737a8372-4317-47c5-8492-ae23002795c1&query=iterator'>Iterators</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5eb3773f-b093-4630-8e18-ae810038ea47'>Lambdas</a></td>
-      <td><a href='#'>N/A</a></td>
     </tr>
     <tr>
       <td>Slides</td>
+      <td><a href='slides/day30_initialization_assignments.pdf'>Initialization and assignment</a><br><a href='slides/day30_rule_of_3.pdf'>Rule of 3</a><br><a href='slides/day31_template_functions.pdf'>Template functions</a><br><a href='slides/day31_template_classes.pdf'>Template classes</a></td>
+      <td><a href='slides/day32_inheritance.pdf'>Inheritance</a><br><a href='slides/day32_polymorphism.pdf'>Polymorphism</a><br><a href='slides/day33_dynamic_dispatch.pdf'>Dynamic dispatch</a><br><a href='slides/day33_function_hiding_abstract_classes.pdf'>Function hiding and abstract classes</a><br><a href='slides/day33_virtual_destructors.pdf'>Virtual destructors</a></td>
       <td><a href='slides/day34_oo_design_uml.pdf'>OO Design & UML Diagrams</a><br><a href='slides/day35_enum.pdf'>Enumerated Types</a><br><a href='slides/day35_exceptions.pdf'>Exceptions</a><br><a href='slides/day35_customized_exceptions.pdf'>Customized Exceptions</a></td>
-      <td><a href='slides/day36_iterators.pdf'>Iterators</a><br><a href='slides/day37_lambdas.pdf'>Lambdas</a></td>
-      <td><a href='#'>N/A</a></td>
     </tr>
     <tr>
       <td>Recap<br>Questions</td>
+      <td><a href='questions/day30.html'>Day 30</a><br><a href='questions/day31.html'>Day 31</a></td>
+      <td><a href='questions/day32.html'>Day 32</a><br><a href='questions/day33.html'>Day 33</a></td>
       <td><a href='questions/day34.html'>Day 34</a><br><a href='questions/day35.html'>Day 35</a></td>
-      <td><a href='questions/day36.html'>Day 36</a><br><a href='questions/day37.html'>Day 37</a></td>
-      <td></td>
     </tr>
     <tr>
       <td>Exercise</td>
-      <td><a href='#'>Work on final project</a><br><a href='exercise/ex35.html'>Exercise 35</a></td>
-      <td><a href='exercise/ex36.html'>Exercise 36</a><br><a href='#'>Work on final project</a></td>
-      <td><a href='#'>Work on final project</a></td>
+      <td><a href='exercise/ex30.html'>Exercise 30</a><br><a href='exercise/ex31.html'>Exercise 31</a></td>
+      <td><a href='exercise/ex32.html'>Exercise 32</a><br><a href='exercise/ex33.html'>Exercise 33</a></td>
+      <td>Work on final project<br><a href='exercise/ex35.html'>Exercise 35</a></td>
     </tr>
     <tr>
       <td>Additional<br>Resources</td>
@@ -423,35 +423,35 @@ the materials for that week.
   <thead>
     <tr>
       <th></th>
-      <th>Day 22 (25-Jul)</th>
-      <th>Day 23 (27-Jul)</th>
-      <th>Day 24 (29-Jul)</th>
+      <th>Day 20 (25-Jul)</th>
+      <th>Day 21 (27-Jul)</th>
+      <th>Day 22 (29-Jul)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>Videos</td>
-      <td><a href='#'>N/A</a></td>
-      <td><a href='#'>N/A</a></td>
-      <td><a href='#'>N/A</a></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=737a8372-4317-47c5-8492-ae23002795c1&query=iterator'>Iterators</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5eb3773f-b093-4630-8e18-ae810038ea47'>Lambdas</a></td>
+      <td>N/A</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>Slides</td>
-      <td><a href='#'>N/A</a></td>
-      <td><a href='#'>N/A</a></td>
-      <td><a href='#'>N/A</a></td>
+      <td><a href='slides/day36_iterators.pdf'>Iterators</a><br><a href='slides/day37_lambdas.pdf'>Lambdas</a></td>
+      <td>N/A</td>
+      <td>N/A</td>
     </tr>
     <tr>
       <td>Recap<br>Questions</td>
-      <td></td>
+      <td><a href='questions/day36.html'>Day 36</a><br><a href='questions/day37.html'>Day 37</a></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>Exercise</td>
-      <td><a href='#'>Work on final project</a></td>
-      <td><a href='#'>Work on final project</a></td>
-      <td><a href='#'>Final exam</a></td>
+      <td><a href='exercise/ex36.html'>Exercise 36</a><br>Work on final project</td>
+      <td>Work on final project</td>
+      <td>Work on final project</td>
     </tr>
     <tr>
       <td>Additional<br>Resources</td>
