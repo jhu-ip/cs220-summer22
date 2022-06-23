@@ -47,6 +47,8 @@ to the course Gradescope in the first week.
 
 ## News
 
+* **June 23rd** — The [Midterm Project](assign/midterm.html) has been posted, and is
+  due by 11pm on Friday, July 1st.
 * **June 20th** — The [Course Material](material.html) and [Schedule](schedule.html)
   pages have been updated to accommodate the summer holidays on June 20th and
   July 4th.

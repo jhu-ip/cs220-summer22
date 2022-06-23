@@ -6,8 +6,9 @@ category: assignments
 
 ## Homework assignments
 
-Assignment | Due date
-:--------: | :------:
-[Homework 0](assign/hw0.html) | Thursday, June 9th by 11pm
-[Homework 1](assign/hw1.html) | Wednesday, June 15th by 11pm
-[Homework 3](assign/hw3.html) | Wednesday, June 22nd by 11pm
+Assignment | Type | Due date
+:--------: | :--: | :------:
+[Homework 0](assign/hw0.html) | Individual | Thursday, June 9th by 11pm
+[Homework 1](assign/hw1.html) | Individual | Wednesday, June 15th by 11pm
+[Homework 3](assign/hw3.html) | Individual | Wednesday, June 22nd by 11pm
+[Midterm project](assign/midterm.html) | Team | Friday, July 1st by 11pm

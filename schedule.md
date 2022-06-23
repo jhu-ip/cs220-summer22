@@ -16,7 +16,7 @@ Date | Significance
 Thurs, June 9th | [HW0](assign/hw0.html) due
 Wed, June 15th | [HW1](assign/hw1.html) due
 Wed, June 22nd | [HW3](assign/hw3.html) due
-Fri, July 1st | Midterm project due
+Fri, July 1st | [Midterm project](assign/midterm.html) due
 Wed, July 6th | Midterm exam
 Wed, July 13th | HW5 due
 Wed, July 20th | HW7 due
