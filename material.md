@@ -154,7 +154,7 @@ the materials for that week.
       <td>Slides</td>
       <td></td>
       <td><a href='slides/day13_lifetime_scope.pdf'>Lifetime/Scope</a><br><a href='slides/day13_struct_type.pdf'>Structs</a><br><a href='slides/day13_random_numbers.pdf'>Random number generation</a><br><a href='slides/day14_binary_file_io.pdf'>Binary file I/O</a><br><a href='slides/day14_bitwise_operations.pdf'>Bitwise operations</a></td>
-      <td><a href='slides/day15_number_rep_type_conversions.pdf'>Number representation, type conversion/casting</a><br>Midterm project</td>
+      <td><a href='slides/day15_number_rep_type_conversions.pdf'>Number representation, type conversion/casting</a><br><a href='assign/midterm.html'>Midterm project</a></td>
     </tr>
     <tr>
       <td>Recap<br>Questions</td>
@@ -222,8 +222,8 @@ the materials for that week.
     <tr>
       <td>Exercise</td>
       <td><a href='exercise/ex17.html'>Exercise 17</a><br><a href='exercise/ex18.html'>Exercise 18</a></td>
-      <td>Work on midterm project</td>
-      <td>Work on midterm project</td>
+      <td><a href='assign/midterm.html'>Work on midterm project</a></td>
+      <td><a href='assign/midterm.html'>Work on midterm project</a></td>
     </tr>
     <tr>
       <td>Additional<br>Resources</td>
