@@ -38,10 +38,9 @@ Note: the review materials are intended to help you study to reinforce your know
 of concepts, but you should not assume that the types of questions will be exactly
 the same on the actual midterm or final exams.
 
-*Coming soon!*
-
-<!--
 * [MidtermReview.pdf](resources/MidtermReview.pdf): general midterm review questions, [Solutions](resources/MidtermReview-solutions.pdf)
 * [Midterm-Fall2019.pdf](resources/Midterm-Fall2019.pdf): midterm exam from Fall 2019, [Solutions](resources/Midterm-Fall2019-solutions.pdf)
+
+<!--
 * [FinalReview.pdf](resources/FinalReview.pdf): general final exam review questions, [Solutions](resources/FinalReview_SOLUTIONS.pdf)
 -->

@@ -47,6 +47,8 @@ to the course Gradescope in the first week.
 
 ## News
 
+* **June 26th** — The midterm exam will take place in class on **Wed, July 6th**.
+  Review materials are posted on the [Resources](resources.html) page.
 * **June 23rd** — The [Midterm Project](assign/midterm.html) has been posted, and is
   due by 11pm on Friday, July 1st.
 * **June 20th** — The [Course Material](material.html) and [Schedule](schedule.html)
