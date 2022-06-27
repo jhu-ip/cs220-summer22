@@ -288,7 +288,7 @@ Transposing an image is straightforward; you just need to allocate a new image w
 ### Gradient
 [Image gradient](https://en.wikipedia.org/wiki/Image_gradient) is useful in many image processing operations, such as [Canny edge detector](https://en.wikipedia.org/wiki/Canny_edge_detector) and [Seam carving](https://en.wikipedia.org/wiki/Seam_carving).
 
-Let $$I(x,y)$$ be our input image. You will compute its gradient in $$x$$- and $$y$$-direction using the below finite difference formula:
+Let $$I(x,y)$$ be the gray intensity of the pixels of our input image. (I.e., $$I(x,y)$$ is the value assigned to the `r`, `g`, and `b` color values of the pixel at column $$x$$ and row $$y$$, following a grayscale transformation of the original image.) You will compute its gradient in $$x$$- and $$y$$-direction using the below finite difference formula:
 
 $$\nabla_x I(x,y) = \frac{I(x+1, y) - I(x-1, y)}{2}$$
 

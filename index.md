@@ -47,6 +47,8 @@ to the course Gradescope in the first week.
 
 ## News
 
+* **June 27th** — The [Midterm Project](assign/midterm.html) has been updated
+  to clarify the intended semantics of the gradient transformation.
 * **June 26th** — The midterm exam will take place in class on **Wed, July 6th**.
   Review materials are posted on the [Resources](resources.html) page.
 * **June 23rd** — The [Midterm Project](assign/midterm.html) has been posted, and is
