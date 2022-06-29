@@ -240,7 +240,7 @@ the materials for that week.
     <tr>
       <td>Recorded<br>Sessions</td>
       <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=624cdb01-e8fe-4fee-a1b5-aec1010de812'>Meeting 9</a></td>
-      <td></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e00eb147-b5fc-4671-b349-aec301101779'>Meeting 10</a></td>
       <td></td>
     </tr>
   </tbody>
