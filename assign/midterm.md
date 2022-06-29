@@ -14,6 +14,10 @@ title: Midterm Project
 </div>
 </div>
 
+*Update 6/29*: In addition to submitting the code, each individual team member
+should complete the [Individual Contributions Survey](#submission) by 11pm
+on **Sunday, July 3rd**.
+
 ## General Requirements
 
 This is a programming assignment, meaning you will write and submit the source code for a program. 
@@ -489,8 +493,10 @@ Look how the kitten is preserved after rescaling using seam carving.
 </div>
 </div>
 
-Submit your project via Gradescope. Your submission should contain all source code and files necessary to compile your program (including a `Makefile`) as well as a `README` file (which includes all partner names and JHEDs) and a `gitlog.txt` file from your midterm project repo. The `gitlog.txt` should indicate that all team members were contributing code and pushing their contributions to the repository. Your submission **should not** contain any compiled binaries (executables or object files), or any testing-related files (in particular, please do not submit any image files).
+Submit your code using the **Midterm Project** assignment on Gradescope . Your submission should contain all source code and files necessary to compile your program (including a `Makefile`) as well as a `README` file (which includes all partner names and JHEDs) and a `gitlog.txt` file from your midterm project repo. The `gitlog.txt` should indicate that all team members were contributing code and pushing their contributions to the repository. Your submission **should not** contain any compiled binaries (executables or object files), or any testing-related files (in particular, please do not submit any image files).
 
 The requirements for your `git log` are the same as in previous assignments, except note that we expect all members of your team to be contributing commits to your shared midterm project repo.
 
-**Only one team member should submit the project on Gradescope.** The same team member should submit all versions of the project in his/her account. **Be sure that source file headers include the names and JHEDs of all team members**, so that each student gets credit for this work.
+**Only one team member should submit the project code on Gradescope.** The same team member should submit all versions of the project in his/her account. **Be sure that source file headers include the names and JHEDs of all team members**, so that each student gets credit for this work.
+
+In addition to submitting the code, each individual team member must complete the **Midterm Project Contributions** survey on Gradescope.  This survey is due by 11pm on Sunday, July 3rd, and you should complete it after your team is done working on the project code.

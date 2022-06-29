@@ -47,6 +47,9 @@ to the course Gradescope in the first week.
 
 ## News
 
+* **June 29th** — The [Midterm Project](assign/midterm.html) has been updated to
+  indicate that each team member should complete the midterm project contributions
+  survey on Gradescope by 11pm on Sunday, July 3rd.
 * **June 27th** — The [Midterm Project](assign/midterm.html) has been updated
   to clarify the intended semantics of the gradient transformation.
 * **June 26th** — The midterm exam will take place in class on **Wed, July 6th**.
