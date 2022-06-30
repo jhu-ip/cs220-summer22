@@ -235,7 +235,7 @@ the materials for that week.
       <td>Lecture<br>Slides</td>
       <td><a href='slides/class09.pdf'>Meeting 9</a></td>
       <td><a href='slides/class10.pdf'>Meeting 10</a></td>
-      <td></td>
+      <td><a href='slides/class11.pdf'>Meeting 11</a></td>
     </tr>
     <tr>
       <td>Recorded<br>Sessions</td>
