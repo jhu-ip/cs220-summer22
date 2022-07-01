@@ -241,7 +241,7 @@ the materials for that week.
       <td>Recorded<br>Sessions</td>
       <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=624cdb01-e8fe-4fee-a1b5-aec1010de812'>Meeting 9</a></td>
       <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e00eb147-b5fc-4671-b349-aec301101779'>Meeting 10</a></td>
-      <td></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a480c580-a464-419c-9497-aec50115461e'>Meeting 11</a></td>
     </tr>
   </tbody>
 </table>
