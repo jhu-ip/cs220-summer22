@@ -47,6 +47,9 @@ to the course Gradescope in the first week.
 
 ## News
 
+* **July 5th** — The [Course Material](material.html) and [Schedule](schedule.html)
+  pages have been updated to start covering C++ material slightly earlier
+  (immediately after the midterm exam on July 6th.)
 * **June 29th** — The [Midterm Project](assign/midterm.html) has been updated to
   indicate that each team member should complete the midterm project contributions
   survey on Gradescope by 11pm on Sunday, July 3rd.
