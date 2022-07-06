@@ -44,9 +44,9 @@ Gradescope and recieve feedback and your work in there. Regrade requests
 can be made and are processed on Gradescope as well. You get an invitation
 to the course Gradescope in the first week.
 
-
 ## News
 
+* **July 6th** — [HW5](assign/hw5.html) is due by 11pm on **Thu, July 14th**.
 * **July 5th** — The [Course Material](material.html) and [Schedule](schedule.html)
   pages have been updated to start covering C++ material slightly earlier
   (immediately after the midterm exam on July 6th.)
