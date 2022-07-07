@@ -15,7 +15,7 @@ reference solutions:
 2. What is the standard template library (STL)?
 3. How do you iterate over a `std::vector` and print out its elements?
 4. What is an iterator in C++?
-5. How do you add an element to an existing vector.
+5. How do you add an element to an existing vector?
 6. (Bonus) What is the output of the program below?
 
 ```c
