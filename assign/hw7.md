@@ -118,7 +118,7 @@ friend functions.
 `CTrie(const CTrie& rhs)`: Copy constructor. Makes a deep copy of the
 `CTrie` object passed as the parameter.
 
-`~CTrie()`: Destructor.  Deletes the `CTrie` object, first recursively
+`~CTrie()`: Destructor.  Destroys the `CTrie` object by recursively
 deleting all of its children.
 
 `CTrie& operator=(const CTrie &rhs)`: Assignment operator. Recursively
