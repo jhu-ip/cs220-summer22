@@ -87,9 +87,6 @@ embodies.
 
 Here is an example of a trie where the "hops" (links) represent letters:
 
-<!--
-![Example trie](img/example-trie.png)
--->
 <img class="keep_original_size" alt="Example trie" src="img/example-trie.png">
 
 A word is a sequence of letters, and the endpoint nodes in this
@@ -247,9 +244,9 @@ found in iOS devices.
 You are given a 4x4 grid of letters, and the aim of the game is to form words
 on the grid. Unlike a word search grid, you are able to form words by adjoining 
 any adjacent letter, though you cannot use the same letter twice. Below is a
-a screenshot of the game.
+a screenshot of the game, showing a path spelling the word "rent":
 
-![Word Hunt Game Screenshot](img/GamePigeon-Word-Hunt.jpeg)
+<img class="keep_original_size" style="width: 480px;" alt="Word Hunt game screenshot" src="img/WordHunt-rent.jpg">
 
 You can test your `CTrie` implementation by building this `wordHunt` program. 
 The program uses the word bank `words.txt` which is prefilled with over 170k english words.
