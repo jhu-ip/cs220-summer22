@@ -348,6 +348,7 @@ You will need to create a `Makefile` as follows:
   `-Wall -Wextra -std=c++-11 -pedantic` compiler options
   (and your code should not produce any warnings or errors when
   compiled with these options)
+* We highly recommend using the `-g` compiler option to enable debugging
 * `make cTrieTest` should build a `cTrieTest` executable from `CTrieTest.o` and
   `CTrie.o`
 * `make tTrieTest` should build a `tTrieTest` executable from `TTrieTest.o`
