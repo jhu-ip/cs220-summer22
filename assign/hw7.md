@@ -343,7 +343,7 @@ and as with `cTrieTest`, adding your own tests is a good idea.
 ### Provided files
 
 Begin by copying the starter source files, header files, and text (`.txt`) files
-available in the public repo: `cs220-sp21-public/homework/hw7/`.
+available in the public repo: `cs220-summer22-public/homework/hw7/`.
 
 You will need to create a `Makefile` as follows:
 
