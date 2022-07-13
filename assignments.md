@@ -13,3 +13,4 @@ Assignment | Type | Due date
 [Homework 3](assign/hw3.html) | Individual | Wednesday, June 22nd by 11pm
 [Midterm project](assign/midterm.html) | Team | Friday, July 1st by 11pm
 [Homework 5](assign/hw5.html) | Individual | Thursday, July 14th by 11pm
+[Homework 7](assign/hw7.html) | Individual | Thursday, July 21st by 11pm
