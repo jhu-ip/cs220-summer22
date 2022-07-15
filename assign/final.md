@@ -89,8 +89,8 @@ Assuming your current directory is your clone of your team's final project
 repository, you could use the following commands to copy the files:
 
 ```
-cp -r ~/git/cs220-summer22-public/projects/final/* .
-cp ~/git/cs220-summer22-public/projects/final/.gitignore .
+cp -r ~/cs220-summer22-public/projects/final/* .
+cp ~/cs220-summer22-public/projects/final/.gitignore .
 ```
 
 Once you have copied the starter files, use `git add`, `git commit`,
