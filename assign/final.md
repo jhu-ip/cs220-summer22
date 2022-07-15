@@ -166,9 +166,147 @@ x/y coordinate plane rendered by the plot. The *width* and *height* integer valu
 specify the dimensions of the rendered image. Note that *xmin* must be less than *xmax*,
 and *ymin* must be less than *ymin*. Also, *width* and *height* must both be positive.
 
+A plot input file *must* specify exactly one `Plot` directive.
+
+The `Function` directive has the following form:
+
+<div class="highlighter-rouge"><pre>
+Function <i>fn_name</i> <i>expression</i>
+</pre></div>
+
+*fn\_name* is the name of the function, so that it can be referred to by
+`Color` directives and the various `Fill` directives.
+*expression* is a sequence of one or more tokens consistuing a prefix expression
+which specifies the mathematical function to be plotted.
+(See [Functions and expressions](#functions-and-expressions) below for details.)
+
+The `Color` directive has the following form:
+
+<div class="highlighter-rouge"><pre>
+Color <i>fn_name</i> <i>r</i> <i>g</i> <i>b</i>
+</pre></div>
+
+*fn\_name* is the name of a function defined in a `Function` directive.
+*r*, *g*, and *b* are the R/G/B color component values for the color
+with which the function should be plotted.
+
+The `FillAbove` directive has the following form:
+
+<div class="highlighter-rouge"><pre>
+FillAbove <i>fn_name</i> <i>opacity</i> <i>r</i> <i>g</i> <i>b</i>
+</pre></div>
+
+*fn\_name* is the name of a function defined in a `Function` directive.
+*opacity* is a floating point value between 0.0 and 1.0 (inclusive)
+specifying the opacity of the fill color.
+*r*, *g*, and *b* are the R/G/B color component values for the fill color.
+
+The `FillBelow` directive has the following form:
+
+<div class="highlighter-rouge"><pre>
+FillBelow <i>fn_name</i> <i>opacity</i> <i>r</i> <i>g</i> <i>b</i>
+</pre></div>
+
+The values in a `FillBelow` directive have the same meaning as in a
+`FillAbove` directive.
+
+The `FillBetween` directive has the following form:
+
+<div class="highlighter-rouge"><pre>
+FillBetween <i>fn_name1</i> <i>fn_name2</i> <i>opacity</i> <i>r</i> <i>g</i> <i>b</i>
+</pre></div>
+
+The values in a `FillBetween` directive have the same meaning as in
+`FillAbove` and `FillBelow` directives, except there are two function names,
+*fn\_name1* and *fn\_name2*.
+
 ### Functions and expressions
 
-TODO
+The mathematical functions specified by `Function` directives are of the form
+*y*=*expr*, where *expr* is a *prefix expression*.
+Prefix expressions have one of the following forms:
+
+* `x`
+* `pi`
+* a literal numeric (floating-point) value
+* `(` *function\_name* *arguments* `)`
+
+*function\_name* is one of `sin`, `cos`, `+`, `-`, `*`, and `/`.
+*arguments* is a sequence of 0 or more prefix expressions.
+Because an expansion of *arguments* can include arbitrary (nested) prefix
+expressions, prefix expressions are inherently recursive.
+
+Prefix expressions are so-called because when a function is used, it
+preceeds the argument values to which it is applied. The prefix expressions
+in the `plot` program are similar to [Lisp S-Expressions](https://en.wikipedia.org/wiki/S-expression).
+
+A critical idea to understand is that expressions can and should be represented
+as a [tree](https://en.wikipedia.org/wiki/Tree_(data_structure)). Nodes representing
+`x`, `pi`, or a literal numeric value are *leaf nodes*, meaning that they
+have no child nodes. A node representing a function will have one child
+node for each argument expression.
+
+For example, consider the following prefix expression:
+
+```
+( + ( sin ( * 1.33 x ) ) ( * 0.25 ( cos ( * 6.7 x ) ) ) )
+```
+
+We could write this as an infix expression as something like $$(\sin 1.33 x) + (0.25 (\cos 6.7 x))$$.
+As a tree, this expression could be represented as
+
+<img class="keep_original_size" style="width:540px;" alt="example expression tree" src="img/final/example-expr.svg">
+
+Note that every token in a prefix expression must be separated by at least one
+whitespace character. This means that you can read the tokens in a prefix expression by
+repeatedly extracting `std::string` values from the stream from which the expression
+text is read.
+
+The following pseudo-code explains how you could implement code to parse
+a prefix expression and build an expression tree from it.
+
+```
+// assume tokens is a sequence of tokens comprising
+// the prefix expression
+function parsePfxExpr(tokens) {
+  n = remove first token from tokens
+
+  if (n is "x", "pi", or a literal number) {
+    create appropriate expression node and return it
+  } else if (n is a left parenthesis) {
+    n = remove first token from tokens
+
+    if (n is none of sin, cos, +, -, *, or /) {
+      throw exception // invalid function name
+    }
+
+    result = create appropriate function node
+
+    while (first token of tokens is not right parenthesis) {
+      arg = parsePfxExpr(tokens)
+      add arg as child of result
+    }
+
+    remove first token from tokens // should be right paren
+
+    return result
+  } else {
+    throw exception // unexpected token
+  }
+}
+```
+
+Since the algorithm repeatedly examines and removes the first token
+from the sequence of tokens, you might consider using a `std::deque`
+container to store the tokens, since it supports a `pop_front()` operation.
+
+### Representing a plot
+
+Before attempting to render a plot image, the program should build
+a complete representation of the plot directives as objects in memory.
+The plot bounds and dimensions, as well as the function, color,
+and fill directives should all be represented as objects that are
+gathered in a central *plot object*.
 
 ### Producing a rendered image
 
