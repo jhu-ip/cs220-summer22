@@ -300,6 +300,19 @@ Since the algorithm repeatedly examines and removes the first token
 from the sequence of tokens, you might consider using a `std::deque`
 container to store the tokens, since it supports a `pop_front()` operation.
 
+Note that the parsing algorithm described above allows any function
+to have any number (0 or more) of argument expressions. However,
+the following restrictions should be enforced:
+
+* `sin` and `cos` functions should have exactly one argument expression
+* `-` and `/` functions should have exactly two argument expressions
+* `+` and `*` functions may have any number (0 or more) of argument expressions
+
+You don't need to enforce these restrictions as part of parsing.
+It's fine to check them later on.
+
+### Evaluating expressions
+
 ### Representing a plot
 
 Before attempting to render a plot image, the program should build
