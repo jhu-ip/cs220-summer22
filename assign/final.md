@@ -20,7 +20,6 @@ title: "Final Project"
 <div class='admonition success'>
 <div class='title'>Objectives</div>
 <div class='content'>
-<p>To practice with:</p>
 <ul>
 <li>Reading and writing file data</li>
 <li>Classes and objects</li>
@@ -29,6 +28,7 @@ title: "Final Project"
 <li>Operator overloading</li>
 <li>Trees (dynamic linked structures)</li>
 <li>Recursion</li>
+<li>Exceptions and exception handling</li>
 </ul>
 </div>
 </div>
@@ -147,7 +147,24 @@ in the file extension `.png`.)
 
 ### Plot files
 
-TODO
+A plot file is a series of directives. Each directive is specified on
+one input line. There are 6 types of directives: `Plot`, `Function`, `Color`,
+`FillAbove`, `FillBelow`, and `FillBetween`.
+
+The items in a directive will be each be separated by at least one whitespace
+character. It is also possible that there could be leading or trailing
+whitespace characters in a directive.
+
+The `Plot` directive has the following form:
+
+<div class="highlighter-rouge"><pre>
+Plot <i>xmin</i> <i>ymin</i> <i>xmax</i> <i>ymax</i> <i>width</i> <i>height</i>
+</pre></div>
+
+The *xmin*, *ymin*, *xmax*, and *ymax* floating point values define the region of the
+x/y coordinate plane rendered by the plot. The *width* and *height* integer values
+specify the dimensions of the rendered image. Note that *xmin* must be less than *xmax*,
+and *ymin* must be less than *ymin*. Also, *width* and *height* must both be positive.
 
 ### Functions and expressions
 
