@@ -366,7 +366,39 @@ gathered in a central *plot object*.
 
 ### Producing a rendered image
 
-TODO
+The rendered plot image should be created in memory as an `Image` object.
+An `Image` is represented as an array of `Color` values, arranged in row-major
+order with the top row of pixel colors first in the array.
+
+Each pixel color should be black initially.
+
+The renderer should first render the fills (`FillAbove`, `FillBelow`,
+and `FillBetween`), in the order in which they appear in the plot input
+file.  To draw a fill, the renderer should consider every pixel in the
+image. For each one, it should determine the $$x$$ and $$y$$ coordinates
+the pixel represents. If a pixel's coordinates are determined to be in
+the fill area, then the pixel's color should be adjusted based on the
+fill's opacity and color values. Say that the opacity value is $$p$$.
+The color component values of the updated pixel color should be changed
+to $$(1-p)c_{old} + pc_{new}$$, where $$c_{old}$$ is the original
+color component value, and $$c_{new}$$ is the fill color's color component
+value.
+
+The renderer should then render the `Function`s, in the order in which they
+appear in the plot file. For each function, the renderer should iterate over
+the columns of the image, determine the $$x$$ coordinate the column represents
+(based on the bounds of the plot), and then determine the value of $$y$$
+by evaluating the function for $$x$$. The computed $$y$$ value should be
+translated to a pixel row.  The rendered should then draw 5 opaque pixels:
+one at the appropriate pixel column and row based on the $$x$$ and $$y$$ values,
+and four immediately above, below, left, and right of the center pixel.
+
+If a `Color` value for the function was specified, that color should be used
+for the plotted pixels. Otherwise, white $$(255,255,255)$$ should be used.
+
+Note that it is possible that some or all of the pixels for a particular point
+will be outside of the bounds of the image.  The renderer should only draw the
+pixels that are in bounds.
 
 ## Design and implementation notes
 
