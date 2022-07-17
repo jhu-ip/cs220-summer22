@@ -341,6 +341,21 @@ Each node type should be a class derived from `Expr`, and should
 override the `eval` member function to perform the appropriate evaluation
 strategy for that type of node.
 
+The following table suummarizes how each kind of node should
+be evaluated:
+
+Node type      | Evaluation strategy
+:------------: | -------------------
+`x`            | value of $$x$$
+`pi`           | value closest to $$\pi$$
+literal number | the literal numeric value
+`sin`          | sine of argument
+`cos`          | cosine of argument
+`+`            | sum of arguments (0 if there are no arguments)
+`-`            | difference of first and second arguments
+`*`            | product of arguments (1 if there are no arguments)
+`/`            | quotient of dividing first argument by second
+
 ### Representing a plot
 
 Before attempting to render a plot image, the program should build
