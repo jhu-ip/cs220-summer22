@@ -200,6 +200,8 @@ FillAbove <i>fn_name</i> <i>opacity</i> <i>r</i> <i>g</i> <i>b</i>
 *opacity* is a floating point value between 0.0 and 1.0 (inclusive)
 specifying the opacity of the fill color.
 *r*, *g*, and *b* are the R/G/B color component values for the fill color.
+`FillAbove` indicates that the area above the function (where the $$y$$ values
+are greater than the value of the function) should be filled.
 
 The `FillBelow` directive has the following form:
 
@@ -208,7 +210,9 @@ FillBelow <i>fn_name</i> <i>opacity</i> <i>r</i> <i>g</i> <i>b</i>
 </pre></div>
 
 The values in a `FillBelow` directive have the same meaning as in a
-`FillAbove` directive.
+`FillAbove` directive.  `FillBelow` indicates that the area below the
+function (where the $$y$$ values are greater than the value of the function)
+should be filled.
 
 The `FillBetween` directive has the following form:
 
@@ -218,7 +222,9 @@ FillBetween <i>fn_name1</i> <i>fn_name2</i> <i>opacity</i> <i>r</i> <i>g</i> <i>
 
 The values in a `FillBetween` directive have the same meaning as in
 `FillAbove` and `FillBelow` directives, except there are two function names,
-*fn\_name1* and *fn\_name2*.
+*fn\_name1* and *fn\_name2*.  `FillBetween` indicates that the area
+beween the two functions, meaning where $$y$$ is greater than one function
+but less than the other, should be filled.
 
 ### Functions and expressions
 

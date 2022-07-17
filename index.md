@@ -46,6 +46,8 @@ to the course Gradescope in the first week.
 
 ## News
 
+* **July 20th** — The [Final Project](assign/final.html) is due by 11pm on
+  **Thurs, July 28th**.
 * **July 13th** — [HW7](assign/hw7.html) is due by 11pm on **Thu, July 21st**.
 * **July 6th** — [HW5](assign/hw5.html) is due by 11pm on **Thu, July 14th**.
 * **July 5th** — The [Course Material](material.html) and [Schedule](schedule.html)

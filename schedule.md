@@ -20,5 +20,5 @@ Fri, July 1st | [Midterm project](assign/midterm.html) due
 Wed, July 6th | Midterm exam
 Thu, July 14th | [HW5](assign/hw5.html) due
 Thu, July 21st | [HW7](assign/hw7.html) due
-Thu, July 28th | Final project due
+Thu, July 28th | [Final project](assign/final.html) due
 Fri, July 29th | Final exam
