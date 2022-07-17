@@ -130,7 +130,7 @@ make depend
 ```
 
 This works by having the compiler analyze the source files to determine
-which header files each one depends on.  Note that if you modify any
+which source and header files each one depends on.  Note that if you modify any
 source or header files to add or remove `#include` directives, you
 should run `make depend` again to regenerate the source and header
 file dependencies.
@@ -380,7 +380,7 @@ the pixel represents. If a pixel's coordinates are determined to be in
 the fill area, then the pixel's color should be adjusted based on the
 fill's opacity and color values. Say that the opacity value is $$p$$.
 The color component values of the updated pixel color should be changed
-to $$(1-p)c_{old} + pc_{new}$$, where $$c_{old}$$ is the original
+to $$(1-p) \times c_{old} + p \times c_{new}$$, where $$c_{old}$$ is the original
 color component value, and $$c_{new}$$ is the fill color's color component
 value.
 
@@ -398,7 +398,7 @@ for the plotted pixels. Otherwise, white $$(255,255,255)$$ should be used.
 
 Note that it is possible that some or all of the pixels for a particular point
 will be outside of the bounds of the image.  The renderer should only draw the
-pixels that are in bounds.
+pixels that are within the bounds of the image.
 
 ## Design and implementation notes
 
