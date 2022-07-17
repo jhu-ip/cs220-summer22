@@ -130,7 +130,7 @@ make depend
 ```
 
 This works by having the compiler analyze the source files to determine
-which source and header files each one depends on.  Note that if you modify any
+which header files each one depends on.  Note that if you modify any
 source or header files to add or remove `#include` directives, you
 should run `make depend` again to regenerate the source and header
 file dependencies.
