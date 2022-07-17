@@ -433,8 +433,64 @@ TODO
 
 ## UML Diagram
 
-TODO
+Once you have implemented all of the classes in the program, your group
+should create a UML class diagram showing the relationships between the
+classes.
+
+We recommend using a vector drawing program for your diagram.
+[yEd](https://www.yworks.com/products/yed) is a good free "graph editor"
+which can produce reasonable UML diagrams.
+
+Your UML diagram should be exported to a PDF file called `UMLDiagram.pdf`.
+
+Make sure that your diagram uses the correct notation for each kind of
+relationship. The most important ones are:
+
+Generalization, a.k.a. "Is-A", a.k.a. "Inheritance":
+
+<img class="keep_original_size" style="width:320px;" alt="UML generalization example" src="img/final/generalization.svg">
+
+Aggregation, a.k.a. "Has-A":
+
+<img class="keep_original_size" style="width:320px;" alt="UML aggregation example" src="img/final/aggregation.svg">
+
+Note that "has-a" relationships are typically used in cases where one
+object contains (by reference or by value) one or more instances of
+another kind of object.
+
+Association, a.k.a. "Uses":
+
+<img class="keep_original_size" style="width:320px;" alt="UML association example" src="img/final/association.svg">
+
+Note that association relationships are typically used for situations
+where an object uses an instance of another class to carry out some of its
+behavior, but does not have an "ownership" relationship with that object.
+
+Your diagram does not need to indicate class members such as member variables
+and member functions. However, adding one or two of the most important public
+member functions can be a nice way to indicate the functionality of each class.
 
 ## Submitting
 
-TODO
+Your submission zipfile must contain a `README`, `gitlog.txt`, `Makefile`,
+PDF UML diagram, and all source and header files needed to compile the program.
+
+Your `README` must include:
+
+* A section titled ‘TEAM’ which lists each team participant’s name and JHED id
+* A section titled ‘DESIGN’ which gives a brief explanation of overall
+  design, including how you approached the `point_value` implementation
+* A section titled ‘COMPLETENESS’ which indicates how complete your
+  solution is (i.e. are you aware of any missing/incorrect functionality?).
+* An optional section titled ‘SPECIAL INSTRUCTIONS’ which indicates
+  how we should run your code. (Hopefully this is not necessary — if it
+  is, you may lose points per the requirements above.)
+* An optional section titled ‘OTHER’ which gives the graders any
+  additional information you want the graders to know about your submission.
+
+One member of your team should submit the zipfile to the **Final Project**
+assignment on Gradescope.  Make sure that all team members are added to the
+submission.
+
+Don't forget that each team member must also submit the **Final Project
+Contributions** survey on Gradescope.
