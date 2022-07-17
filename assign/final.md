@@ -402,11 +402,30 @@ pixels that are within the bounds of the image.
 
 ## Design and implementation notes
 
+<!--
 Talk about the classes, general ideas about how to proceed with the
 implementation.
+-->
 
-Explicity state that the starter code can be modified as much as necessary.
-But, also note that the program should be clean and well-designed.
+The starter code provides a useful starting point for the program, and
+illustrates how you could use classes and member functions to implement
+the required functionality.  There are a variety of `TODO` comments
+indicating places where you will need to write code to implement
+functionality, or places where you could add member functions, classes,
+and other implementation code.
+
+The `main` function (in `main.cpp`) can be largely used as-is. (Although,
+you will need to implement exception handling.)  It assumes that
+your program will have a `Reader` class whose job is to read the
+plot file and a `Renderer` class whose job is to render the plot into
+a result `Image` object.
+
+You are allowed to make any and all changes that your group
+decides on.  It is completely up to you how to structure and implement
+your code.  However, part of your grade will be based on design and
+coding style. As always, we expect that your code will be clean,
+readable, and will have appropriate comments to explain the code to the
+reader.
 
 ## Testing
 
