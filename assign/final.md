@@ -319,6 +319,28 @@ It's fine to check them later on.
 
 ### Evaluating expressions
 
+Evaluation is a recursive computation, starting from the root of the
+expression tree.  Different kinds of nodes will be evaluated differently.
+For example, a node representing `x` will evaluate to the value of $$x$$
+for which the expression is being evaluated. A node representing a
+literal numeric value will evaluate to that value.
+
+Nodes with children (arguments) will recursively evaluate their children
+to compute their values.  A node representing `sin` will evaluate to the
+sine of its argument.  A node representing `+` will evaluate to the
+sum of its arguments.
+
+You will notice tthat the `Expr` class in the starter code has a
+member function
+
+```c++
+virtual double eval(double x) const = 0;
+```
+
+Each node type should be a class derived from `Expr`, and should
+override the `eval` member function to perform the appropriate evaluation
+strategy for that type of node.
+
 ### Representing a plot
 
 Before attempting to render a plot image, the program should build
