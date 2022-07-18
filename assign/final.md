@@ -228,7 +228,7 @@ but less than the other, should be filled.
 
 ### Functions and expressions
 
-The mathematical functions specified by `Function` directives are of the form
+The mathematical functions specified by `Function` directives have the meaning
 *y*=*expr*, where *expr* is a *prefix expression*.
 Prefix expressions have one of the following forms:
 
