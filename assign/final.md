@@ -526,6 +526,9 @@ by the `compare` program (in this case, `actual/example04_diff.png`)
 will have red pixels wherever your program's output differed from
 the expected output image.
 
+Make sure that you use `valgrind` frequently to test your program to ensure that there
+are no memory errors or memory leaks.
+
 ## Development strategy
 
 Roughly, your main development goals should be
