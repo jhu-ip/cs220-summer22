@@ -482,6 +482,11 @@ object.
 The following are situations that should result in an exception being thrown
 and handled:
 
+* invalid plot directives in plot input file, such as wrong
+  number of arguments to a directive, or invalid arguments to
+  a directive, for example
+  * invalid plot bound (e.g., *xmin* is not less than *xmax*)
+  * invalid image dimensions (e.g., *width* is not positive)
 * the wrong number of arguments are passed to a function
   (e.g., `sin` with more than 1 argument)
 * error parsing prefix expression
@@ -489,9 +494,6 @@ and handled:
 * unknown function name in expression
 * error writing PNG file (`image.cpp` already has code to detect
   these errors and throw an exception)
-* invalid plot directives in plot input file, such as wrong
-  number of arguments to a directive, or invalid arguments to
-  a directive
 * more than one `Color` directive for a function
 * fill directive referring to a nonexistent function name
 
