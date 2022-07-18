@@ -486,7 +486,7 @@ and handled:
   (e.g., `sin` with more than 1 argument)
 * error parsing prefix expression
 * attempt to divide by 0
-* unknown function name
+* unknown function name in expression
 * error writing PNG file (`image.cpp` already has code to detect
   these errors and throw an exception)
 * invalid plot directives in plot input file, such as wrong
