@@ -392,6 +392,10 @@ by evaluating the function for $$x$$. The computed $$y$$ value should be
 translated to a pixel row.  The rendered should then draw 5 opaque pixels:
 one at the appropriate pixel column and row based on the $$x$$ and $$y$$ values,
 and four immediately above, below, left, and right of the center pixel.
+In other words, a plotted point should be rendered like this (where
+the blue dots represent a pixel to be draw for one plot point):
+
+<img class="keep_original_size" style="width:320px;" alt="pixels to plot for one point" src="img/final/plot-point.png">
 
 If a `Color` value for the function was specified, that color should be used
 for the plotted pixels. Otherwise, white $$(255,255,255)$$ should be used.
@@ -399,6 +403,22 @@ for the plotted pixels. Otherwise, white $$(255,255,255)$$ should be used.
 Note that it is possible that some or all of the pixels for a particular point
 will be outside of the bounds of the image.  The renderer should only draw the
 pixels that are within the bounds of the image.
+
+<div class='admonition caution'>
+<div class='title'>Caution</div>
+<div class='content'>
+<p>
+  In image data, the first row (row 0) is at the top of the image,
+  and the row numbers increase going down, from the top
+  of the image to the bottom. However, in the
+  x/y coordinate plane, y values increase going <em>up</em>. You will
+  need to take this into account when drawing pixels.
+  One approach is to pretend that the rows in an image are numbered
+  with 0 being the bottom row, and then "flip" the row number
+  when actually accessing the pixel.
+</p>
+</div>
+</div>
 
 ## Design and implementation notes
 
@@ -445,9 +465,83 @@ Files               | Class defined   | Notes
 `reader.h/cpp`      | `Reader`        | reads plot file to populate a `Plot` object
 `renderer.h/cpp`    | `Renderer`      | renders a `Plot` object to produce an `Image`
 
+## Exception handling
+
+When the program encounters a fatal error, it should throw a `PlotException`.
+The `main` function should handle a `PlotException` by catching it, printing
+an error message to `std::cerr`, and exiting the program with a non-zero return code.
+The error message should be a single line of text of the following form:
+
+<div class="highlighter-rouge"><pre>
+Error: <i>description of error</i>
+</pre></div>
+
+where *description of error* is the text returned by calling `.what()` on the exception
+object.
+
+The following are situations that should result in an exception being thrown
+and handled:
+
+* the wrong number of arguments are passed to a function
+  (e.g., `sin` with more than 1 argument)
+* error parsing prefix expression
+* attempt to divide by 0
+* unknown function name
+* error writing PNG file (`image.cpp` already has code to detect
+  these errors and throw an exception)
+* invalid plot directives in plot input file, such as wrong
+  number of arguments to a directive, or invalid arguments to
+  a directive
+* more than one `Color` directive for a function
+* fill directive referring to a nonexistent function name
+
+The exact error message description your program produces for these
+errors is up to you.
+
 ## Testing
 
-TODO
+As with the [Midterm Project](midterm.html), you will need to have a way
+to view image files in your ugrad account.
+
+The starter files include an `input` directory with example plot files,
+and an `expected` directory with the expected outputs for each example
+plot file.  You can use the `compare` program to compare your program's
+output with the expected output.
+
+For example, here is how you could test your program with the
+`input/example04.txt` plot input file:
+
+```
+mkdir -p actual
+./plot input/example04.txt actual/example04.png
+compare actual/example04.png expected/example04.png actual/example04_diff.png
+echo $?
+```
+
+If the `echo $?` command outputs "0", then your program's image output
+was identical to the expected output. Otherwise, the "diff" image file produced
+by the `compare` program (in this case, `actual/example04_diff.png`)
+will have red pixels wherever your program's output differed from
+the expected output image.
+
+## Development strategy
+
+Roughly, your main development goals should be
+
+1. reading the plot input and building a `Plot` object to represent it, and
+2. rendering a plot to an `Image`
+
+The first goal is the responsibility of the `Reader` object, and the second
+is the responsibility of the `Renderer` object.
+
+The problem of parsing expressions to build an expression tree is a component
+of goal \#1, but is a well-defined task in its own right, so you could work on it
+independently of other parts of the progrm.
+
+As with all larger and more complex programs, try to make progress in small
+increments, carefully testing your code with each step.  Commit and push your
+changes each time you implement and test additional functionality. Make sure
+you create meaningful commit messages.
 
 ## UML Diagram
 
@@ -457,7 +551,8 @@ classes.
 
 We recommend using a vector drawing program for your diagram.
 [yEd](https://www.yworks.com/products/yed) is a good free "graph editor"
-which can produce reasonable UML diagrams.
+which can produce reasonable UML diagrams. However, you can use
+any program that can produce a PDF file.
 
 Your UML diagram should be exported to a PDF file called `UMLDiagram.pdf`.
 
@@ -489,6 +584,10 @@ and member functions. However, adding one or two of the most important public
 member functions can be a nice way to indicate the functionality of each class.
 
 ## Submitting
+
+Before you submit, make sure each of the source and header files has
+a comment at the top of the file indicating the names and JHED IDs of
+each team member.
 
 Your submission zipfile must contain a `README`, `gitlog.txt`, `Makefile`,
 PDF UML diagram, and all source and header files needed to compile the program.
