@@ -341,7 +341,7 @@ Each node type should be a class derived from `Expr`, and should
 override the `eval` member function to perform the appropriate evaluation
 strategy for that type of node.
 
-The following table suummarizes how each kind of node should
+The following table summarizes how each kind of node should
 be evaluated:
 
 Node type      | Evaluation strategy
@@ -359,9 +359,9 @@ literal number | the literal numeric value
 ### Representing a plot
 
 Before attempting to render a plot image, the program should build
-a complete representation of the plot directives as objects in memory.
+a complete representation of the plot directives as values and objects in memory.
 The plot bounds and dimensions, as well as the function, color,
-and fill directives should all be represented as objects that are
+and fill directives should all be represented as data values and objects
 gathered in a central *plot object*.
 
 ### Producing a rendered image
@@ -426,6 +426,24 @@ your code.  However, part of your grade will be based on design and
 coding style. As always, we expect that your code will be clean,
 readable, and will have appropriate comments to explain the code to the
 reader.
+
+Here is a brief guide to the source code and classes that are provided
+in the starter code:
+
+Files               | Class defined   | Notes
+------------------- | --------------- | -----
+`bounds.h/cpp`      | `Bounds`        | represents the bounds of the plot
+`color.h`           | `Color`         | represents an RGB color value
+`exception.h/cpp`   | `PlotException` | exception type thrown if a fatal error occurs
+`expr.h/cpp`        | `Expr`          | expression node type
+`expr_parser.h/cpp` | `ExprParser`    | parses an expression and builds an expression tree
+`fill.h/cpp`        | `Fill`          | represents a fill directive
+`func.h/cpp`        | `Function`      | represents a function to be plotted
+`image.h/cpp`       | `Image`         | image data, can be written as a PNG file
+`main.cpp`          | n/a             | `main` function: reads plot input, renders it to PNG
+`plot.h/cpp`        | `Plot`          | represents the plot directives (the *plot object*)
+`reader.h/cpp`      | `Reader`        | reads plot file to populate a `Plot` object
+`renderer.h/cpp`    | `Renderer`      | renders a `Plot` object to produce an `Image`
 
 ## Testing
 
