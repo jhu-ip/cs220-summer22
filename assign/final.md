@@ -35,9 +35,6 @@ title: "Final Project"
 
 ## Overview
 
-*Note: this is preliminary content. It should not be considered official
-unless it is announced in class and posted to the course website.*
-
 In this project, you will implement a program to render images based on
 plotting mathematical functions.
 
