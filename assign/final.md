@@ -548,6 +548,18 @@ increments, carefully testing your code with each step.  Commit and push your
 changes each time you implement and test additional functionality. Make sure
 you create meaningful commit messages.
 
+<div class='admonition tip'>
+<div class='title'>Tip</div>
+<div class='content'>
+<p>
+  A good way to get started is to add empty "stub" versions of all of
+  the member functions which are required to get the <code>plot</code>
+  program to compile.  Once that's done, you can start implementing the
+  program functionality.
+</p>
+</div>
+</div>
+
 ## UML Diagram
 
 Once you have implemented all of the classes in the program, your group
@@ -595,7 +607,12 @@ a comment at the top of the file indicating the names and JHED IDs of
 each team member.
 
 Your submission zipfile must contain a `README`, `gitlog.txt`, `Makefile`,
-PDF UML diagram, and all source and header files needed to compile the program.
+`UMLDiagram.pdf`, and all source and header files needed to compile the program.
+A command to create the submission zipfile might look like this:
+
+```
+zip -9r submission.zip *.h *.c *.cpp Makefile README gitlog.txt UMLDiagram.pdf
+```
 
 Your `README` must include:
 
