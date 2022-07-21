@@ -46,6 +46,8 @@ to the course Gradescope in the first week.
 
 ## News
 
+* **July 21st** — The final exam will take place in class on **Friday, July 29th**.
+  Review materials are posted on the [Resources](resources.html) page.
 * **July 19th** — The [Final Project](assign/final.html) is due by 11pm on
   **Thurs, July 28th**.
 * **July 13th** — [HW7](assign/hw7.html) is due by 11pm on **Thu, July 21st**.
